@@ -19,7 +19,7 @@ type: blank
 .teach-item-title{
   font-size: 22px;
   font-weight: 600;
-  color: #b21f2d; /* rosso simile al tema */
+  color: #003A8F; /* Blu Bocconi */
   margin: 0;
 }
 
