@@ -4,7 +4,7 @@
 .navbar,
 .navbar.navbar-light,
 .navbar.navbar-expand-lg {
-  background-color: #8b0000 !important;
+  background-color: #003A8F !important;
 }
 
 /* Navbar desktop: link bianchi sulla barra rossa */
@@ -37,12 +37,13 @@
   opacity: 0.85;
 }
 
-/* Link nel contenuto red */
+/* Link nel contenuto - Bocconi blue */
 a {
-  color: #b30000;
+  color: #003A8F;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
 
 
 .pub-list-item p,
@@ -63,8 +64,9 @@ a {
 
 
 a:hover {
-  color: #7a0000;
+  color: #002D72;
 }
+
 
 /* Titoli più "strong" */
 h1, h2, h3 {
@@ -462,9 +464,4 @@ span:has(> i.fas.fa-history) {
 
 
 
-
-// Override colore principale - Bocconi Blue
-:root {
-  --color-primary: #003A8F;
-}
 
