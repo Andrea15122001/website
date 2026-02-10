@@ -462,19 +462,21 @@ span:has(> i.fas.fa-history) {
   display: none !important;
 }
 
-
-
-
-
-.honors-list {
-  overflow-x: auto;
-  white-space: nowrap;
-  padding-left: 1.2rem;
+/* Honors & Awards: make list one-line without scroll */
+.honors-wrap {
+  max-width: 1400px;   /* PIÙ LARGO */
 }
 
 .honors-list li {
-  white-space: nowrap;
+  white-space: normal;        /* può andare a capo solo se serve */
+  overflow-wrap: break-word; /* mai tagli */
 }
 
 
+
+
+/* Hide "Last updated on ..." DEFINITIVE */
+.article-metadata {
+  display: none !important;
+}
 
