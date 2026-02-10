@@ -113,3 +113,5 @@ type: blank
 .page-header .article-meta {
   display: none !important;
 }
+
+</div>
