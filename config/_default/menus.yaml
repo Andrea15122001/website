@@ -22,6 +22,9 @@ main:
   - name: Contact
     url: /contact/
     weight: 60
+  - name: Honors & Awards
+    url: honors-awards/
+    weight: 50
 
 
 
