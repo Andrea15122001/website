@@ -459,3 +459,12 @@ span:has(> i.fas.fa-history) {
 .nav-icons {
   display: none !important;
 }
+
+
+
+
+// Override colore principale - Bocconi Blue
+:root {
+  --color-primary: #003A8F;
+}
+
