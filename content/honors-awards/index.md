@@ -2,9 +2,9 @@
 title: "Honors & Awards"
 type: blank
 ---
-<div style="max-width: 900px; margin: 24px 0 40px 0; line-height: 1.6;">
-  This page presents my honors, awards, and recognitions.
-</div>
+<div class="honors-wrap">
+  <p>This page presents my honors, awards, and recognitions.</p>
+
 
 <style>
 /* Section titles */
@@ -59,7 +59,26 @@ type: blank
   display: none !important;
 }
 
+/* Wider content area for Honors page */
+.honors-wrap {
+  max-width: 1200px;     /* più largo, no scroll */
+  margin: 24px auto 60px auto;
+  padding: 0 24px;       /* respiro laterale */
+  line-height: 1.6;
+}
 
+/* Clean list, allow wrapping */
+.honors-wrap ul {
+  padding-left: 1.2rem;
+}
+
+.honors-wrap li {
+  white-space: normal;        /* permette a capo */
+  overflow-wrap: break-word; /* evita tagli */
+  line-height: 1.6;
+}
+
+  
 </style>
 
 <!-- ===================== -->
@@ -84,5 +103,13 @@ type: blank
   <li>Travel Grant Recipient from the Julius Paul Stieglitz Memorial Foundation, 2020</li>
   <li>Scholarship from the Excellence Initiative of the German Research Foundation (DFG), 2019</li>
 </ul>
+</div>
 
-
+/* DEFINITIVE: hide "Last updated on ..." */
+.page-header .article-metadata,
+.page-header .last-updated,
+.page-header time,
+.page-header .meta,
+.page-header .article-meta {
+  display: none !important;
+}
