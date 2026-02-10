@@ -50,6 +50,16 @@ type: blank
   display: none !important;
 }
 
+
+/* Hide "Last updated on ..." on this page */
+.last-updated,
+.article-metadata .last-updated,
+.article-metadata .updated,
+.article-metadata time[datetime] + span {
+  display: none !important;
+}
+
+
 </style>
 
 <!-- ===================== -->
