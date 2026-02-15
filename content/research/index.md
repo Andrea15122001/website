@@ -1,8 +1,9 @@
 ---
 title: "Research"
 url: "/research/"
-type: page
+type: blank
 ---
+
 
 <div style="margin-bottom:40px;">
   <h1>Publications</h1>
