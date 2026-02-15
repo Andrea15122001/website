@@ -482,3 +482,12 @@ span:has(> i.fas.fa-history) {
 
 
 
+/* Rimuove sottolineatura dai link del menu */
+.navbar a {
+  text-decoration: none !important;
+}
+
+/* Rimuove sottolineatura anche al passaggio del mouse */
+.navbar a:hover {
+  text-decoration: none !important;
+}
