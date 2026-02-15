@@ -94,7 +94,9 @@ context of digital transformation and sustainability, with a focus on customer v
   </div> 
 </div>
 
-/* Conferences */
+
+
+
 <div style="margin-top:60px;">
   <h1>Conferences and Invited Presentations</h1>
 </div>
