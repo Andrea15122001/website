@@ -94,31 +94,7 @@ context of digital transformation and sustainability, with a focus on customer v
   </div> 
 </div>
 
-<!-- ===================== -->
-<!-- CONFERENCES -->
-<!-- ===================== -->
 
-<div class="teach-section-title">Conferences and Invited Presentations</div>
-
-<div class="teach-item-desc">
-  • Copenhagen Business School; Lisbon; Washington, D.C.; Chicago; Columbia Business School, WU Vienna, 2025  
-</div>
-
-<div class="teach-item-desc">
-  • Bocconi University; HEC Paris; TU Munich, 2024  
-</div>
-
-<div class="teach-item-desc">
-  • Columbia Business School; Seattle; INSEAD; ZEW Mannheim; University of Miami; University of Lausanne; SDU Odense; Nashville, 2023  
-</div>
-
-<div class="teach-item-desc">
-  • Copenhagen Business School; Georgia State University; Jagdish Sheth School of Management (virtual); University of Chicago (virtual); Corvinus University of Budapest, 2022  
-</div>
-
-<div class="teach-item-desc">
-  • University of Rochester (virtual); ESIC Business & Marketing School (virtual); Technion Israel Institute of Technology (virtual), 2021  
-</div>
 
 
 <!-- Start: fix navbar (inserted manually) -->
