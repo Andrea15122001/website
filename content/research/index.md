@@ -13,7 +13,7 @@ layout: "research"
 
 ## Working Papers
 
-{{< list_section section="working-papers" >}}
+
 
 ---
 
