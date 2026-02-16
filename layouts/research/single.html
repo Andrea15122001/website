@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main class="container">
+
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <h2>Publications</h2>
+  {{ $pub := site.GetPage "section" "publications" }}
+  {{ range ($pub.RegularPages.ByDate.Reverse) }}
+    {{ .Render "li" }}
+  {{ end }}
+
+  <hr>
+
+  <h2>Working Papers</h2>
+  {{ $wp := site.GetPage "section" "working-papers" }}
+  {{ range ($wp.RegularPages.ByDate.Reverse) }}
+    {{ .Render "li" }}
+  {{ end }}
+
+  <hr>
+
+  <h2>Conferences and Invited Presentations</h2>
+  <p>…</p>
+
+</main>
+{{ end }}
