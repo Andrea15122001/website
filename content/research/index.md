@@ -48,7 +48,7 @@ type: "research"
     <!-- BOTTONE PDF -->
     <p>
       <a
-        href="/pdf/influencer-marketing-unlocked.pdf"
+        href="https://link.springer.com/article/10.1007/s11747-024-01073-2?      utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250124&utm_content=10.1007/s11747-024-01073-2"
         target="_blank"
         class="btn btn-outline-primary btn-sm"
       >
@@ -61,7 +61,7 @@ type: "research"
   <!-- IMMAGINE A DESTRA -->
   <div class="pub-image" style="flex:0 0 210px;">
     <img
-      src="/img/influencer-marketing-unlocked.jpg"
+      src="content/publications/Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy/featured3.jpg"
       alt="Social media platforms illustration"
       style="width:100%; height:auto; border-radius:4px;"
     />
