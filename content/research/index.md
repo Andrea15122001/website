@@ -1,20 +1,21 @@
 ---
 title: "Research"
-# Se esiste già del front matter, tienilo e cambia solo title.
+type: "research"
+layout: "research"
 ---
 
 ## Publications
 
-- Paper 1 — Autori — Journal (Year). [PDF](#) · [Code](#)
-- Paper 2 — Autori — Journal (Year). [PDF](#)
+{{< list_section section="publications" >}}
+
+---
 
 ## Working Papers
 
-- WP 1 — Titolo — (Year). Short abstract… [PDF](#)
-- WP 2 — Titolo — (Year). Short abstract… [PDF](#)
+{{< list_section section="working-papers" >}}
+
+---
 
 ## Conferences and Invited Presentations
 
-- Conference / Seminar — Talk title — Location, Date
-- Invited talk — Title — Host, Date
-
+(qui puoi lasciare manuale oppure creiamo una terza sezione)
