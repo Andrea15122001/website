@@ -12,7 +12,7 @@ This section presents my research publications, linked to their full texts. Addi
 <div class="pub-entry">
   <div class="pub-text">
     <div class="pub-title">
-      <a href="/publications/Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy/">Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy</a>
+      <a href="/content/publications/Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy/">Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy</a>
     </div>
 
     <div class="pub-abstract">
@@ -36,7 +36,7 @@ This section presents my research publications, linked to their full texts. Addi
 <div class="pub-entry">
   <div class="pub-text">
     <div class="pub-title">
-      <a href="/publications/The_Surprising_ROI_of_Small_Online_Influencers/">The Surprising ROI of Small Online Influencers</a>
+      <a href="content/publications/The_Surprising_ROI_of_Small_Online_Influencers/">The Surprising ROI of Small Online Influencers</a>
     </div>
 
     <div class="pub-abstract">
