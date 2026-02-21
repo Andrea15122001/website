@@ -71,8 +71,5 @@ services:
     ID: ""
 
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+
 
