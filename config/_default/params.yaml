@@ -119,10 +119,6 @@ security:
 
 
 
-custom_css:
-  - "css/fix-navbar.css"
-  - css/custom.css
-
 custom_js:
   - "js/fix-navbar.js"
 
@@ -140,6 +136,5 @@ working-papers:
   show_date_updated: false
 
 
-
 custom_css:
-  - "custom.css"
+  - "css/custom.css"
