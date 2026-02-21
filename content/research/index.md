@@ -12,7 +12,7 @@ This section presents my research publications, linked to their full texts. Addi
 <div class="pub-entry">
   <div class="pub-text">
     <div class="pub-title">
-      <a href="/publication/INSERISCI-SLUG-PAGINA/">Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy</a>
+      <a href="/publications/Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy/">Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy</a>
     </div>
 
     <div class="pub-abstract">
@@ -23,7 +23,7 @@ This section presents my research publications, linked to their full texts. Addi
       Maximilian Beichert, Barak Libai, Ana Babic Rosario, Bas Donkers, Michael Haenlein, Reto Hofstetter, P.K. Kannan, Ralf van der Lans, Andreas Lanz, Alice Li, Dina Mayzlin, Eitan Muller, Daniel Shapira, Jeremy Yang, Lingling Zhang
     </div>
 
-    <a class="pub-pdf" href="https://INSERISCI-LINK-WEB-ARTICOLO/" target="_blank" rel="noopener">PDF</a>
+    <a class="pub-pdf" href="https://link.springer.com/article/10.1007/s11747-024-01073-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250124&utm_content=10.1007/s11747-024-01073-2" target="_blank" rel="noopener">PDF</a>
   </div>
 
   <div class="pub-image">
@@ -36,7 +36,7 @@ This section presents my research publications, linked to their full texts. Addi
 <div class="pub-entry">
   <div class="pub-text">
     <div class="pub-title">
-      <a href="/publication/INSERISCI-SLUG-PAGINA/">The Surprising ROI of Small Online Influencers</a>
+      <a href="/publications/The_Surprising_ROI_of_Small_Online_Influencers/">The Surprising ROI of Small Online Influencers</a>
     </div>
 
     <div class="pub-abstract">
@@ -47,7 +47,7 @@ This section presents my research publications, linked to their full texts. Addi
       Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz, Xiaoxi Zhang, Xian Gu, P.K. Kannan
     </div>
 
-    <a class="pub-pdf" href="https://INSERISCI-LINK-WEB-ARTICOLO/" target="_blank" rel="noopener">PDF</a>
+    <a class="pub-pdf" href="https://sloanreview.mit.edu/article/the-surprising-roi-of-small-online-influencers/" target="_blank" rel="noopener">PDF</a>
   </div>
 
   <div class="pub-image">
