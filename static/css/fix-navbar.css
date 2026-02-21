@@ -103,3 +103,7 @@ body[data-wc-page-id*="revenue-generation-through-influencer-marketing"] {
 }
 
 
+/* === Wider content on Research page === */
+.article-container {
+  max-width: 1200px !important;  /* prova 1200/1300/1400 */
+}
