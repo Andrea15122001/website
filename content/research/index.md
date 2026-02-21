@@ -2,6 +2,19 @@
 title: "Research"
 type: "page"
 ---
+<style>
+/* Research: widen only this page */
+body.page-research .article-container{
+  max-width: 900px;   /* uguale a Teaching */
+}
+@media (max-width: 992px){
+  body.page-research .article-container{
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+</style>
 <div class="research-page research-wide">
 
 This section presents my research publications, linked to their full texts. Additional information can be accessed by clicking on each publication.
