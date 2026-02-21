@@ -10,50 +10,50 @@ This section presents my research publications, linked to their full texts. Addi
 ## Publications
 
 <div class="pub-entry">
-  <div class="pub-text">
-    <div class="pub-title">
-      <a href="/content/publications/Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy/">Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy</a>
-    </div>
+<div class="pub-text">
+<div class="pub-title">
+<a href="../publication/influencer-marketing-unlocked/">Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy</a>
+</div>
 
-    <div class="pub-abstract">
-      As influencer marketing evolves into a dominant force in the marketing landscape, it necessitates a deeper theoretical exploration to understand its strategic implementations and impacts. This article examines the dynamics of influencer marketing within the growing creator economy, emphasizing the interactions among...
-    </div>
+<div class="pub-abstract">
+As influencer marketing evolves into a dominant force in the marketing landscape, it necessitates a deeper theoretical exploration to understand its strategic implementations and impacts. This article examines the dynamics of influencer marketing within the growing creator economy, emphasizing the interactions among...
+</div>
 
-    <div class="pub-authors">
-      Maximilian Beichert, Barak Libai, Ana Babic Rosario, Bas Donkers, Michael Haenlein, Reto Hofstetter, P.K. Kannan, Ralf van der Lans, Andreas Lanz, Alice Li, Dina Mayzlin, Eitan Muller, Daniel Shapira, Jeremy Yang, Lingling Zhang
-    </div>
+<div class="pub-authors">
+Maximilian Beichert, Barak Libai, Ana Babic Rosario, Bas Donkers, Michael Haenlein, Reto Hofstetter, P.K. Kannan, Ralf van der Lans, Andreas Lanz, Alice Li, Dina Mayzlin, Eitan Muller, Daniel Shapira, Jeremy Yang, Lingling Zhang
+</div>
 
-    <a class="pub-pdf" href="https://link.springer.com/article/10.1007/s11747-024-01073-2?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250124&utm_content=10.1007/s11747-024-01073-2" target="_blank" rel="noopener">PDF</a>
-  </div>
+<a class="pub-pdf" href="https://link.springer.com/article/10.1007/s11747-024-01073-2" target="_blank" rel="noopener">PDF</a>
+</div>
 
-  <div class="pub-image">
-    <img src="/uploads/featured1 (1).jpg" alt="">
-  </div>
+<div class="pub-image">
+<img src="../uploads/featured1_1.jpg" alt="">
+</div>
 </div>
 
 <hr class="pub-sep">
 
 <div class="pub-entry">
-  <div class="pub-text">
-    <div class="pub-title">
-      <a href="content/publications/The_Surprising_ROI_of_Small_Online_Influencers/">The Surprising ROI of Small Online Influencers</a>
-    </div>
-
-    <div class="pub-abstract">
-      For social media marketing, many companies gravitate to big-name endorsers. But there are good reasons to get “nano influencers” into the mix.
-    </div>
-
-    <div class="pub-authors">
-      Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz, Xiaoxi Zhang, Xian Gu, P.K. Kannan
-    </div>
-
-    <a class="pub-pdf" href="https://sloanreview.mit.edu/article/the-surprising-roi-of-small-online-influencers/" target="_blank" rel="noopener">PDF</a>
-  </div>
-
-  <div class="pub-image">
-    <img src="/uploads/featured2 (1).jpg" alt="">
-  </div>
+<div class="pub-text">
+<div class="pub-title">
+<a href="../publication/the-surprising-roi-of-small-online-influencers/">The Surprising ROI of Small Online Influencers</a>
 </div>
+
+<div class="pub-abstract">
+For social media marketing, many companies gravitate to big-name endorsers. But there are good reasons to get “nano influencers” into the mix.
+</div>
+
+<div class="pub-authors">
+Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz, Xiaoxi Zhang, Xian Gu, P.K. Kannan
+</div>
+
+<a class="pub-pdf" href="https://sloanreview.mit.edu/article/the-surprising-roi-of-small-online-influencers/" target="_blank" rel="noopener">PDF</a>
+</div>
+
+<div class="pub-image">
+<img src="../uploads/featured2_1.jpg" alt="">
+</div>
+</div>>
 
 
 ## Working Papers
