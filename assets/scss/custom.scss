@@ -601,3 +601,10 @@ span:has(> i.fas.fa-history) {
 
 /* Selettore corretto: la .article-container è un parent, quindi uso :has() NON va bene.
    Quindi facciamo la cosa più robusta: mettiamo un <style> dentro la pagina (solo CSS, zero font). */
+
+
+/* Widen content container (fix white margins) */
+.article-container {
+  max-width: 900px !important;
+}
+
