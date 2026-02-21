@@ -597,3 +597,13 @@ span:has(> i.fas.fa-history) {
   max-width: 1400px !important;
 }
 
+/* ===== Wider layout ONLY for Research page ===== */
+
+.research-page {
+  max-width: none !important;
+}
+
+.article-style:has(.research-page) .article-container {
+  max-width: 1400px !important;   /* aumenta se vuoi */
+  width: 96vw !important;
+}
