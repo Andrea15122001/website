@@ -608,3 +608,22 @@ span:has(> i.fas.fa-history) {
   max-width: 900px !important;
 }
 
+
+
+/* Publication image smaller */
+.pub-image img {
+  max-width: 220px;   /* prima era molto più grande */
+  height: auto;
+}
+
+
+
+/* Align publication image to top */
+.pub-entry {
+  align-items: flex-start;
+}
+
+
+.pub-image {
+  margin-left: 20px;
+}
