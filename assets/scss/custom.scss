@@ -609,3 +609,21 @@ span:has(> i.fas.fa-history) {
 }
 
 
+/* === Research publications: image smaller + top aligned === */
+.article-container .research-page .pub-entry{
+  align-items: flex-start !important;
+}
+
+.article-container .research-page .pub-image{
+  flex: 0 0 220px !important;   /* “colonna” immagine più stretta */
+  align-self: flex-start !important;
+  margin-top: -6px !important;  /* sale un po’ verso il titolo (regola fine) */
+  margin-left: 20px !important;
+}
+
+.article-container .research-page .pub-image img{
+  width: 220px !important;
+  max-width: 220px !important;
+  height: auto !important;
+  display: block !important;
+}
