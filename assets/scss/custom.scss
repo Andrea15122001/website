@@ -661,3 +661,30 @@ span:has(> i.fas.fa-history) {
   display: block !important;
   object-fit: cover !important;
 }
+
+
+/* ===== Publications: smaller images + aligned to title ===== */
+
+/* layout */
+.article-container .research-page .pub-entry{
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 28px !important;
+}
+
+/* image column smaller */
+.article-container .research-page .pub-image{
+  flex: 0 0 170px !important;   /* cambia 170 -> 150/190 a gusto */
+  width: 170px !important;
+  margin-top: -18px !important; /* sale verso il titolo */
+}
+
+/* IMPORTANT: override Wowchemy margins on images inside article-style */
+.article-container .research-page .pub-image img{
+  width: 100% !important;       /* riempi la colonna da 170px */
+  max-width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;         /* cancella margin-top: 2rem del tema */
+  display: block !important;
+}
