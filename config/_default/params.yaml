@@ -119,9 +119,6 @@ security:
 
 
 
-custom_js:
-  - "js/fix-navbar.js"
-
 
 publications:
   date_format: January 2, 2006
@@ -134,7 +131,6 @@ working-papers:
   date_format: January 2, 2006
   show_date: false
   show_date_updated: false
-
 
 custom_css:
   - "css/custom.css"
