@@ -648,15 +648,15 @@ span:has(> i.fas.fa-history) {
 
 /* 3) colonna immagine più stretta e più su */
 .research-page .pub-image{
-  flex: 0 0 170px !important;     /* DIMENSIONE COLONNA */
-  width: 170px !important;
+  flex: 0 0 100px !important;     /* DIMENSIONE COLONNA */
+  width: 100px !important;
   margin-top: -22px !important;   /* ALLINEAMENTO col titolo (regola chiave) */
 }
 
 /* 4) immagine davvero più piccola */
 .research-page .pub-image img{
-  width: 170px !important;        /* DIMENSIONE IMMAGINE */
-  max-width: 170px !important;
+  width: 100px !important;        /* DIMENSIONE IMMAGINE */
+  max-width: 100px !important;
   height: auto !important;
   display: block !important;
   object-fit: cover !important;
