@@ -27,7 +27,7 @@ This section presents my research publications, linked to their full texts. Addi
   </div>
 
   <div class="pub-image">
-    <img src="/uploads/INSERISCI-IMMAGINE.jpg" alt="">
+    <img src="/uploads/featured1 (1).jpg" alt="">
   </div>
 </div>
 
@@ -51,7 +51,7 @@ This section presents my research publications, linked to their full texts. Addi
   </div>
 
   <div class="pub-image">
-    <img src="/uploads/INSERISCI-IMMAGINE.jpg" alt="">
+    <img src="/uploads/featured2 (1).jpg" alt="">
   </div>
 </div>
 
