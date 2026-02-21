@@ -566,3 +566,38 @@ span:has(> i.fas.fa-history) {
     flex-basis: auto;
   }
 }
+
+
+
+
+
+
+
+
+/* Wider layout ONLY for Research page */
+.research-wide {
+  /* niente qui, serve solo come “flag” */
+}
+
+.research-wide {
+  /* target the theme wrapper above it */
+}
+
+.research-wide {
+}
+
+/* questo è il punto: quando dentro Research, allarga il container del tema */
+.research-wide {
+}
+
+.research-wide .pub-entry { /* opzionale: niente */ }
+
+/* ✅ fix reale */
+.research-wide {
+}
+
+.research-wide {
+}
+
+/* Selettore corretto: la .article-container è un parent, quindi uso :has() NON va bene.
+   Quindi facciamo la cosa più robusta: mettiamo un <style> dentro la pagina (solo CSS, zero font). */
