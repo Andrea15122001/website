@@ -1,8 +1,8 @@
 ---
 title: "Research"
-type: blank
+type: "page"
 ---
-<div style="max-width: 900px; margin: 24px 0 40px 0; line-height: 1.6;">
+<div class="research-page">
 
 This section presents my research publications, linked to their full texts. Additional information can be accessed by clicking on each publication.
 
