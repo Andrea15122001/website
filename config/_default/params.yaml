@@ -132,5 +132,4 @@ working-papers:
   show_date: false
   show_date_updated: false
 
-custom_css:
-  - "css/custom.css"
+
