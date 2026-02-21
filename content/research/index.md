@@ -2,7 +2,7 @@
 title: "Research"
 type: "page"
 ---
-<div class="research-page">
+<div class="research-page research-wide">
 
 This section presents my research publications, linked to their full texts. Additional information can be accessed by clicking on each publication.
 
