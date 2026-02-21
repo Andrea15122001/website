@@ -569,3 +569,25 @@ span:has(> i.fas.fa-history) {
     flex-basis: auto;
   }
 }
+
+
+
+
+
+
+/* Wider page content (reduce left/right empty space) */
+.research-page {
+  max-width: 1300px;   /* prova 1200 / 1300 / 1400 */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+/* Force wider container only on Research page */
+.page-content:has(.research-page),
+main:has(.research-page) {
+  max-width: 1300px;
+}
