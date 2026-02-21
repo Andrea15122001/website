@@ -676,7 +676,7 @@ span:has(> i.fas.fa-history) {
 .article-container .research-page .pub-image{
   flex: 0 0 170px !important;   /* cambia 170 -> 150/190 a gusto */
   width: 170px !important;
-  margin-top: -18px !important; /* sale verso il titolo */
+  margin-top: -8px !important; /* sale verso il titolo */
 }
 
 /* IMPORTANT: override Wowchemy margins on images inside article-style */
