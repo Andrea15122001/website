@@ -615,3 +615,13 @@ span:has(> i.fas.fa-history) {
 .article-container {
   max-width: 1400px !important;
 }
+
+
+
+
+/* ===== FORCE WIDER CONTENT ===== */
+
+.page-body .article-container {
+  max-width: 1200px !important;   /* puoi mettere 1300 o 1400 */
+  width: 95vw !important;
+}
