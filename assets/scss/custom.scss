@@ -584,10 +584,16 @@ span:has(> i.fas.fa-history) {
   padding-right: 10px;
 }
 
-
-
-/* Force wider container only on Research page */
-.page-content:has(.research-page),
-main:has(.research-page) {
-  max-width: 1300px;
+.research-page{
+  max-width: none !important;
+  width: min(1400px, 96vw) !important;
+  margin: 0 auto !important;
+  padding: 0 12px !important;
 }
+
+.page-content,
+.article-container,
+.container {
+  max-width: 1400px !important;
+}
+
