@@ -55,7 +55,7 @@ Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz, Xiaoxi Zhan
 <div class="pub-image">
 <img src="../uploads/featured2_1.jpg" alt="">
 </div>
-</div>>
+</div>
 
 
 ## Working Papers
