@@ -12,7 +12,9 @@ This section presents my research publications, linked to their full texts. Addi
 <div class="pub-entry">
 <div class="pub-text">
 <div class="pub-title">
-<a href="content/publications/Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy/">Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy</a>
+<a href="https://harmonious-kulfi-eaaf70.netlify.app/publications/influencer-marketing-unlocked-understanding-the-value-chains-driving-the-creator-economy/" target="_blank" rel="noopener">
+Influencer Marketing Unlocked: Understanding the Value Chains Driving the Creator Economy
+</a>
 </div>
 
 <div class="pub-abstract">
