@@ -605,7 +605,7 @@ span:has(> i.fas.fa-history) {
 
 /* Widen content container (fix white margins) */
 .article-container {
-  max-width: 900px !important;
+  max-width: 1100px !important;
 }
 
 
@@ -626,4 +626,38 @@ span:has(> i.fas.fa-history) {
   max-width: 220px !important;
   height: auto !important;
   display: block !important;
+}
+
+
+
+/* ===== Publications layout (definitive) ===== */
+
+/* 1) assicurati che sia flex */
+.research-page .pub-entry{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 28px !important;  /* spazio tra testo e immagine */
+}
+
+/* 2) testo prende tutto lo spazio */
+.research-page .pub-text{
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+
+/* 3) colonna immagine più stretta e più su */
+.research-page .pub-image{
+  flex: 0 0 170px !important;     /* DIMENSIONE COLONNA */
+  width: 170px !important;
+  margin-top: -22px !important;   /* ALLINEAMENTO col titolo (regola chiave) */
+}
+
+/* 4) immagine davvero più piccola */
+.research-page .pub-image img{
+  width: 170px !important;        /* DIMENSIONE IMMAGINE */
+  max-width: 170px !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: cover !important;
 }
