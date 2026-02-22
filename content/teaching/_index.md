@@ -81,44 +81,37 @@ context of digital transformation and sustainability, with a focus on customer v
   </div> 
 </div>
 
-<div>
-  <div class="teach-item-title">Selected Student Comments:</div>
-  <div class="teach-item-desc">
-    • "I really liked the lecturer's teaching manner and his attitude and how open and approachable he was. The way he picked certain topics from the material covered by the lectures and initiated discussions making giving space to everyone and to participate and contribute."<br>
-• "Very accessible and easy-to-follow lessons, with a professor who is very approachable and encourages discussion."<br>
-• "The course was very well structured and the topics were very well explained throughout the lectures."<br>
-• "Very approachable and kind professor who is passionate about the course."<br>
-• "I especially liked the very good structure of the course. It was very easy to follow and you noticed that the teacher prepared extensively for the event. It was also very positive that the feedback after the first part of the block course was taken into account and that there was an even stronger focus on discussion sessions in the second part. It was a lot of fun!"<br>
-• "The professor has been very clear, professional and helpful"<br>
-• "I really liked the course and the lecturer. Thankful for the opportunity to attend this course."<br>
-  </div> 
-</div>
 
 <!-- ===================== -->
-<!-- CONFERENCES -->
+<!-- Selected Student Comments -->
 <!-- ===================== -->
 
-<div class="teach-section-title">Conferences and Invited Presentations</div>
+<div class="teach-section-title">Selected Student Comments</div>
 
 <div class="teach-item-desc">
-  • Copenhagen Business School; Lisbon; Washington, D.C.; Chicago; Columbia Business School, WU Vienna, 2025  
+   • "I really liked the lecturer's teaching manner and his attitude and how open and approachable he was. The way he picked certain topics from the material covered by the lectures and initiated discussions making giving space to everyone and to participate and contribute."
+</div>
+<div class="teach-item-desc">
+  • "Very accessible and easy-to-follow lessons, with a professor who is very approachable and encourages discussion."
+</div>
+<div class="teach-item-desc">
+  • "The course was very well structured and the topics were very well explained throughout the lectures." 
+</div>
+<div class="teach-item-desc">
+  • "Very approachable and kind professor who is passionate about the course." 
+</div>
+<div class="teach-item-desc">
+  • "I especially liked the very good structure of the course. It was very easy to follow and you noticed that the teacher prepared extensively for the event. It was also very positive that the feedback after the first part of the block course was taken into account and that there was an even stronger focus on discussion sessions in the second part. It was a lot of fun!"
+</div>
+<div class="teach-item-desc">
+  • "The professor has been very clear, professional and helpful." 
+</div>
+<div class="teach-item-desc">
+  • "I really liked the course and the lecturer. Thankful for the opportunity to attend this course." 
 </div>
 
-<div class="teach-item-desc">
-  • Bocconi University; HEC Paris; TU Munich, 2024  
-</div>
 
-<div class="teach-item-desc">
-  • Columbia Business School; Seattle; INSEAD; ZEW Mannheim; University of Miami; University of Lausanne; SDU Odense; Nashville, 2023  
-</div>
 
-<div class="teach-item-desc">
-  • Copenhagen Business School; Georgia State University; Jagdish Sheth School of Management (virtual); University of Chicago (virtual); Corvinus University of Budapest, 2022  
-</div>
-
-<div class="teach-item-desc">
-  • University of Rochester (virtual); ESIC Business & Marketing School (virtual); Technion Israel Institute of Technology (virtual), 2021  
-</div>
 
 
 <!-- Start: fix navbar (inserted manually) -->
