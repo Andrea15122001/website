@@ -349,12 +349,12 @@ document.addEventListener("DOMContentLoaded", function () {
         entry.style.removeProperty('gap');
       });
       document.querySelectorAll('.pub-image').forEach(function(imgCol){
-        imgCol.style.setProperty('width', '80px', 'important');
-        imgCol.style.setProperty('flex', '0 0 80px', 'important');
+        imgCol.style.setProperty('width', '110px', 'important');
+        imgCol.style.setProperty('flex', '0 0 110px', 'important');
       });
       document.querySelectorAll('.pub-image img').forEach(function(img){
-        img.style.setProperty('width', '80px', 'important');
-        img.style.setProperty('max-width', '80px', 'important');
+        img.style.setProperty('width', '110px', 'important');
+        img.style.setProperty('max-width', '110px', 'important');
       });
     }
   }
