@@ -110,7 +110,7 @@ Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz
 <div class="pub-authors">
 Maximilian Beichert, Caio Vieira, Peter Ebbes, Andreas Lanz
 </div>
-
+</div>
 
 <div class="pub-image">
 <img src="/uploads/tilv.jpg" alt="">
@@ -128,7 +128,7 @@ Maximilian Beichert, Caio Vieira, Peter Ebbes, Andreas Lanz
 <div class="pub-authors">
 Maximilian Beichert, Victoria Meil, Oded Netzer
 </div>
-
+</div>
 
 <div class="pub-image">
 <img src="/uploads/tgpg.jpg" alt="">
@@ -146,7 +146,7 @@ Maximilian Beichert, Victoria Meil, Oded Netzer
 <div class="pub-authors">
 Maximilian Beichert, Lucia Malaer, Andrea Giuffredi-Kaehr, Jacob Goldenberg
 </div>
-
+</div>
 
 <div class="pub-image">
 <img src="/uploads/is.jpg" alt="">
@@ -164,7 +164,7 @@ Maximilian Beichert, Lucia Malaer, Andrea Giuffredi-Kaehr, Jacob Goldenberg
 <div class="pub-authors">
 Maximilian Beichert, Magie Cheng, Shunyuan Zhang, Xitong Li
 </div>
-
+</div>
 
 <div class="pub-image">
 <img src="/uploads/i-s.jpg" alt="">
@@ -182,7 +182,7 @@ Maximilian Beichert, Magie Cheng, Shunyuan Zhang, Xitong Li
 <div class="pub-authors">
 Maximilian Beichert, Xiaoxi Zhang, Xian Gu
 </div>
-
+</div>
 
 <div class="pub-image">
 <img src="/uploads/imc.jpg" alt="">
@@ -200,7 +200,7 @@ Maximilian Beichert, Xiaoxi Zhang, Xian Gu
 <div class="pub-authors">
 Maximilian Beichert, Guangqi Dong, Xian Gu
 </div>
-
+</div>
 
 <div class="pub-image">
 <img src="/uploads/itli.jpg" alt="">
