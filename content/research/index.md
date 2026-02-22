@@ -50,7 +50,9 @@ Maximilian Beichert, Barak Libai, Ana Babic Rosario, Bas Donkers, Michael Haenle
 <div class="pub-entry">
 <div class="pub-text">
 <div class="pub-title">
-<a href="content/publications/The_Surprising_ROI_of_Small_Online_Influencers/">The Surprising ROI of Small Online Influencers</a>
+<a href="https://harmonious-kulfi-eaaf70.netlify.app/publications/the_surprising_roi_of_small_online_influencers/" target="_blank" rel="noopener">
+The Surprising ROI of Small Online Influencers
+</a>
 </div>
 
 <div class="pub-abstract">
@@ -74,7 +76,9 @@ Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz, Xiaoxi Zhan
 <div class="pub-entry">
 <div class="pub-text">
 <div class="pub-title">
-<a href="content/publications/revenue-generation-through-influencer-marketing/">Revenue Generation Through Influencer Marketing</a>
+<a href="https://harmonious-kulfi-eaaf70.netlify.app/publications/revenue-generation-through-influencer-marketing/" target="_blank" rel="noopener">
+Revenue Generation Through Influencer Marketing
+</a>
 </div>
 
 <div class="pub-abstract">
