@@ -41,7 +41,7 @@ Maximilian Beichert, Barak Libai, Ana Babic Rosario, Bas Donkers, Michael Haenle
 </div>
 
 <div class="pub-image">
-<img src="../uploads/featured1_1.jpg" alt="">
+<img src="../uploads/featured3_1.jpg" alt="">
 </div>
 </div>
 
@@ -68,6 +68,31 @@ Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz, Xiaoxi Zhan
 <img src="../uploads/featured2_1.jpg" alt="">
 </div>
 </div>
+
+<hr class="pub-sep">
+
+<div class="pub-entry">
+<div class="pub-text">
+<div class="pub-title">
+<a href="content/publications/revenue-generation-through-influencer-marketing/">Revenue Generation Through Influencer Marketing</a>
+</div>
+
+<div class="pub-abstract">
+Direct-to-consumer firms increasingly believe that influencer marketing is an effective option for seeding. However, the current managerially relevant question for direct-to-consumer firms of whether to target low- or high-followership influencers to generate immediate revenue is still unresolved. In this article, the...
+</div>
+
+<div class="pub-authors">
+Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz
+</div>
+
+<a class="pub-pdf" href="https://journals.sagepub.com/doi/10.1177/00222429231217471" target="_blank" rel="noopener">PDF</a>
+</div>
+
+<div class="pub-image">
+<img src="../uploads/featured1_1.jpg" alt="">
+</div>
+</div>
+
 
 
 ## Working Papers
