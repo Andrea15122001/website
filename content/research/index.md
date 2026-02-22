@@ -292,14 +292,14 @@ Maximilian Beichert, Guangqi Dong, Xian Gu
 document.addEventListener("DOMContentLoaded", function () {
   // IMMAGINI: forza width e flex con !important
   document.querySelectorAll('.pub-image').forEach(function(imgCol){
-    imgCol.style.setProperty('flex', '0 0 80px', 'important');
-    imgCol.style.setProperty('width', '80px', 'important');
+    imgCol.style.setProperty('flex', '0 0 110px', 'important');
+    imgCol.style.setProperty('width', '110px', 'important');
     imgCol.style.setProperty('margin-top', '0', 'important');
   });
 
   document.querySelectorAll('.pub-image img').forEach(function(img){
-    img.style.setProperty('width', '80px', 'important');
-    img.style.setProperty('max-width', '80px', 'important');
+    img.style.setProperty('width', '110px', 'important');
+    img.style.setProperty('max-width', '110px', 'important');
     img.style.setProperty('height', 'auto', 'important');
     img.style.setProperty('display', 'block', 'important');
     img.style.setProperty('margin', '0', 'important');
