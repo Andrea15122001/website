@@ -688,3 +688,93 @@ span:has(> i.fas.fa-history) {
   margin: 0 !important;         /* cancella margin-top: 2rem del tema */
   display: block !important;
 }
+
+
+
+/* =========================
+   Research page - final CSS
+   ========================= */
+
+/* (0) allarga SOLO Research (sposta qui il tuo inline style, così non serve <style> nel markdown) */
+body.page-research .article-container{
+  max-width: 900px;
+}
+
+@media (max-width: 992px){
+  body.page-research .article-container{
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* (1) layout entry: testo + immagine */
+body.page-research .research-page .pub-entry{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;              /* spazio tra testo e immagine */
+}
+
+/* (1a) colonna testo */
+body.page-research .research-page .pub-text{
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* (1b) colonna immagine: MOLTO più piccola (meno della metà) */
+body.page-research .research-page .pub-image{
+  flex: 0 0 90px;         /* <-- cambia 90->80/100 se vuoi */
+  width: 90px;
+  margin-top: 0;          /* evita “hack” tipo -22px */
+}
+
+body.page-research .research-page .pub-image img{
+  width: 90px;
+  max-width: 90px;
+  height: auto;
+  display: block;
+  margin: 0;              /* override del tema (spesso mette margin-top sulle immagini) */
+  border-radius: 10px;    /* opzionale */
+}
+
+/* (2) testo un po’ più piccolo mantenendo proporzioni */
+body.page-research .research-page .pub-text{
+  font-size: 0.93rem;     /* <-- abbassa tutto il blocco */
+  line-height: 1.45;
+}
+
+/* proporzioni interne (restano “simili” a prima) */
+body.page-research .research-page .pub-title a{
+  font-size: 1.30em;      /* titolo più grande */
+}
+
+body.page-research .research-page .pub-abstract{
+  font-size: 1.00em;
+}
+
+body.page-research .research-page .pub-authors{
+  font-size: 1.00em;
+}
+
+/* (3) più spazio tra titoletti (h2) e contenuto */
+body.page-research .article-style h2{
+  margin-top: 3rem;
+  margin-bottom: 1.35rem;
+}
+
+/* (3a) un po’ più respiro tra una entry e la successiva */
+body.page-research .research-page .pub-sep{
+  margin: 1.25rem 0;
+}
+
+/* (mobile) impila immagine sotto o sopra al testo */
+@media (max-width: 768px){
+  body.page-research .research-page .pub-entry{
+    flex-direction: column;
+    gap: 12px;
+  }
+  body.page-research .research-page .pub-image{
+    width: 90px;
+  }
+}
