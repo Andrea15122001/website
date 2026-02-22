@@ -17,7 +17,7 @@ body.page-research .article-container{
 </style>
 <div class="research-page research-wide">
 
-This section presents my research publications, linked to their full texts. Additional information can be accessed by clicking on each publication.
+This section presents my research publications, linked to their full texts. Additional information can be accessed by clicking on each publication. Below, you will also find my working papers, conference presentations, and invited talks.
 
 ## Publications
 
