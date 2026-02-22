@@ -689,3 +689,10 @@ span:has(> i.fas.fa-history) {
   display: block !important;
 }
 
+
+
+
+/* Allinea il titolo alla stessa larghezza del contenuto */
+.article-container {
+  max-width: 1100px !important;
+}
