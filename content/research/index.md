@@ -102,38 +102,112 @@ Maximilian Beichert, Andreas Bayerl, Jacob Goldenberg, Andreas Lanz
 ## Working Papers
 
 <div class="pub-entry">
-  <div class="pub-text">
-    <div class="pub-title">
-      <a href="#" onclick="return false;">The Influencer Lifetime Value</a>
-    </div>
+<div class="pub-text">
+<div class="pub-title">
+<a href="#" onclick="return false;">The Influencer Lifetime Value</a>
+</div>
 
-    <div class="pub-authors">
-      Maximilian Beichert, Caio Vieira, Peter Ebbes, Andreas Lanz
-    </div>
-  </div>
+<div class="pub-authors">
+Maximilian Beichert, Caio Vieira, Peter Ebbes, Andreas Lanz
+</div>
 
-  <div class="pub-image">
-    <img src="/uploads/INSERISCI-IMMAGINE.jpg" alt="">
-  </div>
+
+<div class="pub-image">
+<img src="/uploads/tilv.jpg" alt="">
+</div>
 </div>
 
 <hr class="pub-sep">
 
 <div class="pub-entry">
-  <div class="pub-text">
-    <div class="pub-title">
-      <a href="#" onclick="return false;">The Gender Pay Gap in Influencer Marketing</a>
-    </div>
-
-    <div class="pub-authors">
-      Maximilian Beichert, Victoria Meil, Oded Netzer
-    </div>
-  </div>
-
-  <div class="pub-image">
-    <img src="/uploads/INSERISCI-IMMAGINE.jpg" alt="">
-  </div>
+<div class="pub-text">
+<div class="pub-title">
+<a href="#" onclick="return false;">The Gender Pay Gap in Influencer Marketing</a>
 </div>
+
+<div class="pub-authors">
+Maximilian Beichert, Victoria Meil, Oded Netzer
+</div>
+
+
+<div class="pub-image">
+<img src="/uploads/tgpg.jpg" alt="">
+</div>
+</div>
+
+<hr class="pub-sep">
+
+<div class="pub-entry">
+<div class="pub-text">
+<div class="pub-title">
+<a href="#" onclick="return false;">Influencer Sharenting</a>
+</div>
+
+<div class="pub-authors">
+Maximilian Beichert, Lucia Malaer, Andrea Giuffredi-Kaehr, Jacob Goldenberg
+</div>
+
+
+<div class="pub-image">
+<img src="/uploads/is.jpg" alt="">
+</div>
+</div>
+
+<hr class="pub-sep">
+
+<div class="pub-entry">
+<div class="pub-text">
+<div class="pub-title">
+<a href="#" onclick="return false;">Influencer Selection Using a Multi-Task Learning Model</a>
+</div>
+
+<div class="pub-authors">
+Maximilian Beichert, Magie Cheng, Shunyuan Zhang, Xitong Li
+</div>
+
+
+<div class="pub-image">
+<img src="/uploads/i-s.jpg" alt="">
+</div>
+</div>
+
+<hr class="pub-sep">
+
+<div class="pub-entry">
+<div class="pub-text">
+<div class="pub-title">
+<a href="#" onclick="return false;">Influencer Marketing and Customer Touchpoints</a>
+</div>
+
+<div class="pub-authors">
+Maximilian Beichert, Xiaoxi Zhang, Xian Gu
+</div>
+
+
+<div class="pub-image">
+<img src="/uploads/imc.jpg" alt="">
+</div>
+</div>
+
+<hr class="pub-sep">
+
+<div class="pub-entry">
+<div class="pub-text">
+<div class="pub-title">
+<a href="#" onclick="return false;">Influence That Lasts: Indirect Sales from Influencer Marketing Campagns</a>
+</div>
+
+<div class="pub-authors">
+Maximilian Beichert, Guangqi Dong, Xian Gu
+</div>
+
+
+<div class="pub-image">
+<img src="/uploads/itli.jpg" alt="">
+</div>
+</div>
+
+<hr class="pub-sep">
 
 
 ## Conferences and Invited Presentations
