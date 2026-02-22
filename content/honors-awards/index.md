@@ -3,9 +3,11 @@ title: "  Honors & Awards"
 type: blank
 ---
 
-<div class="honors-wrap">
-  <p>This page presents my honors, awards, and recognitions.</p>
+<div class="page-header">
+  <p class="article-subtitle">This page presents my honors, awards, and recognitions.</p>
+</div>
 
+<div class="honors-wrap">
   <ul class="honors-list">
     <li>ISMS Early Career Camp, Fellow, 2025</li>
     <li>Don Lehmann Award, Winner, 2025</li>
