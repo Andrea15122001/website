@@ -3,15 +3,80 @@ title: "Research"
 type: "page"
 ---
 <style>
-/* Research: widen only this page */
-body.page-research .article-container{
-  max-width: 900px;   /* uguale a Teaching */
+/* FORCE override per la sola pagina Research - mettere inline nella page (ultimo CSS caricato) */
+
+/* contenitore largo solo per research */
+body.page-research .article-container {
+  max-width: 900px !important;
 }
-@media (max-width: 992px){
-  body.page-research .article-container{
-    max-width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
+
+/* layout entry: testo + immagine */
+body.page-research .article-container .research-page .pub-entry{
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  gap: 24px !important;
+}
+
+/* colonna testo - testo un filo più piccolo, mantengo proporzioni */
+body.page-research .article-container .research-page .pub-text{
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  font-size: 0.92rem !important;    /* testo un po' più piccolo */
+  line-height: 1.45 !important;
+}
+
+/* titoli / abstract / autori - proporzioni */
+body.page-research .article-container .research-page .pub-title a{
+  font-size: 1.32em !important;
+}
+body.page-research .article-container .research-page .pub-abstract{
+  font-size: 1.00em !important;
+}
+body.page-research .article-container .research-page .pub-authors{
+  font-size: 1.00em !important;
+}
+
+/* IMMAGINI: molto più piccole (meno della metà) */
+body.page-research .article-container .research-page .pub-image{
+  flex: 0 0 80px !important;   /* larghezza colonna immagine - cambia 80 -> 70/90 a piacere */
+  width: 80px !important;
+  margin-top: 0 !important;
+}
+body.page-research .article-container .research-page .pub-image img{
+  width: 80px !important;      /* dimensione immagine */
+  max-width: 80px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 !important;
+  object-fit: cover !important;
+  border-radius: 8px !important;
+}
+
+/* spazio tra h2 (titoletti quali "Publications", "Working Papers") e contenuto sotto */
+body.page-research .article-style h2{
+  margin-top: 3.2rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* spazio tra entry */
+body.page-research .article-container .research-page .pub-sep{
+  margin: 1.5rem 0 !important;
+}
+
+/* mobile: impila verticalmente e ingrandisci immagine leggermente */
+@media (max-width: 768px){
+  body.page-research .article-container .research-page .pub-entry{
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+  body.page-research .article-container .research-page .pub-image{
+    width: 90px !important;
+    flex: 0 0 90px !important;
+  }
+  body.page-research .article-container .research-page .pub-image img{
+    width: 90px !important;
+    max-width: 90px !important;
   }
 }
 </style>
