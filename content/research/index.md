@@ -290,74 +290,71 @@ Maximilian Beichert, Guangqi Dong, Xian Gu
      ############################### -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  // 1) rendi le immagini molto più piccole (colonna + immagine)
+  // IMMAGINI: forza width e flex con !important
   document.querySelectorAll('.pub-image').forEach(function(imgCol){
-    imgCol.style.flex = '0 0 80px';
-    imgCol.style.width = '80px';
-    imgCol.style.marginTop = '0';
-  });
-  document.querySelectorAll('.pub-image img').forEach(function(img){
-    img.style.width = '80px';
-    img.style.maxWidth = '80px';
-    img.style.height = 'auto';
-    img.style.display = 'block';
-    img.style.margin = '0';
-    img.style.objectFit = 'cover';
-    img.style.borderRadius = '8px';
+    imgCol.style.setProperty('flex', '0 0 80px', 'important');
+    imgCol.style.setProperty('width', '80px', 'important');
+    imgCol.style.setProperty('margin-top', '0', 'important');
   });
 
-  // 2) testo: riduci leggermente la dimensione e mantieni proporzioni
+  document.querySelectorAll('.pub-image img').forEach(function(img){
+    img.style.setProperty('width', '80px', 'important');
+    img.style.setProperty('max-width', '80px', 'important');
+    img.style.setProperty('height', 'auto', 'important');
+    img.style.setProperty('display', 'block', 'important');
+    img.style.setProperty('margin', '0', 'important');
+    img.style.setProperty('object-fit', 'cover', 'important');
+    img.style.setProperty('border-radius', '8px', 'important');
+  });
+
+  // Riduzione testo e proporzioni (come prima)
   document.querySelectorAll('.pub-text').forEach(function(text){
-    text.style.fontSize = '0.92rem';
-    text.style.lineHeight = '1.45';
+    text.style.setProperty('font-size', '0.92rem', 'important');
+    text.style.setProperty('line-height', '1.45', 'important');
   });
   document.querySelectorAll('.pub-title a').forEach(function(a){
-    // Titoli proporzionalmente più grandi
-    a.style.fontSize = '1.32em';
+    a.style.setProperty('font-size', '1.32em', 'important');
   });
   document.querySelectorAll('.pub-abstract, .pub-authors').forEach(function(el){
-    el.style.fontSize = '1.00em';
+    el.style.setProperty('font-size', '1.00em', 'important');
   });
 
-  // 3) spazio tra H2 (titoletti) e contenuto successivo
+  // Spaziatura h2 e hr
   document.querySelectorAll('.article-style h2, .article-container h2').forEach(function(h2){
-    h2.style.marginTop = '3.2rem';
-    h2.style.marginBottom = '1.5rem';
+    h2.style.setProperty('margin-top', '3.2rem', 'important');
+    h2.style.setProperty('margin-bottom', '1.5rem', 'important');
   });
-
-  // 4) spazio tra entries
   document.querySelectorAll('.pub-sep').forEach(function(hr){
-    hr.style.margin = '1.5rem 0';
+    hr.style.setProperty('margin', '1.5rem 0', 'important');
   });
 
-  // 5) mobile: impila verticalmente (se vuoi forzare anche su mobile)
+  // Responsive: impila su mobile (gestito con inline !important)
   function applyMobile() {
     if (window.innerWidth <= 768) {
       document.querySelectorAll('.pub-entry').forEach(function(entry){
-        entry.style.flexDirection = 'column';
-        entry.style.gap = '12px';
+        entry.style.setProperty('flex-direction', 'column', 'important');
+        entry.style.setProperty('gap', '12px', 'important');
       });
       document.querySelectorAll('.pub-image').forEach(function(imgCol){
-        imgCol.style.width = '90px';
-        imgCol.style.flex = '0 0 90px';
+        imgCol.style.setProperty('width', '90px', 'important');
+        imgCol.style.setProperty('flex', '0 0 90px', 'important');
       });
       document.querySelectorAll('.pub-image img').forEach(function(img){
-        img.style.width = '90px';
-        img.style.maxWidth = '90px';
+        img.style.setProperty('width', '90px', 'important');
+        img.style.setProperty('max-width', '90px', 'important');
       });
     } else {
-      // restore desktop values (in case of resize)
       document.querySelectorAll('.pub-entry').forEach(function(entry){
-        entry.style.flexDirection = '';
-        entry.style.gap = '';
+        entry.style.removeProperty('flex-direction');
+        entry.style.removeProperty('gap');
       });
       document.querySelectorAll('.pub-image').forEach(function(imgCol){
-        imgCol.style.width = '80px';
-        imgCol.style.flex = '0 0 80px';
+        imgCol.style.setProperty('width', '80px', 'important');
+        imgCol.style.setProperty('flex', '0 0 80px', 'important');
       });
       document.querySelectorAll('.pub-image img').forEach(function(img){
-        img.style.width = '80px';
-        img.style.maxWidth = '80px';
+        img.style.setProperty('width', '80px', 'important');
+        img.style.setProperty('max-width', '80px', 'important');
       });
     }
   }
