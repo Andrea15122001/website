@@ -283,4 +283,87 @@ Maximilian Beichert, Guangqi Dong, Xian Gu
 - Copenhagen Business School; Georgia State University; Jagdish Sheth School of Management (virtual); University of Chicago (virtual); Corvinus University of Budapest, 2022
 - University of Rochester (virtual); ESIC Business & Marketing School (virtual); Technion Israel Institute of Technology (virtual), 2021
 
+
+<!-- ###############################
+     FIX IMMEDIATO: forza stili via JS
+     Inserisci questo blocco IN FONDO a content/research.md
+     ############################### -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // 1) rendi le immagini molto più piccole (colonna + immagine)
+  document.querySelectorAll('.pub-image').forEach(function(imgCol){
+    imgCol.style.flex = '0 0 80px';
+    imgCol.style.width = '80px';
+    imgCol.style.marginTop = '0';
+  });
+  document.querySelectorAll('.pub-image img').forEach(function(img){
+    img.style.width = '80px';
+    img.style.maxWidth = '80px';
+    img.style.height = 'auto';
+    img.style.display = 'block';
+    img.style.margin = '0';
+    img.style.objectFit = 'cover';
+    img.style.borderRadius = '8px';
+  });
+
+  // 2) testo: riduci leggermente la dimensione e mantieni proporzioni
+  document.querySelectorAll('.pub-text').forEach(function(text){
+    text.style.fontSize = '0.92rem';
+    text.style.lineHeight = '1.45';
+  });
+  document.querySelectorAll('.pub-title a').forEach(function(a){
+    // Titoli proporzionalmente più grandi
+    a.style.fontSize = '1.32em';
+  });
+  document.querySelectorAll('.pub-abstract, .pub-authors').forEach(function(el){
+    el.style.fontSize = '1.00em';
+  });
+
+  // 3) spazio tra H2 (titoletti) e contenuto successivo
+  document.querySelectorAll('.article-style h2, .article-container h2').forEach(function(h2){
+    h2.style.marginTop = '3.2rem';
+    h2.style.marginBottom = '1.5rem';
+  });
+
+  // 4) spazio tra entries
+  document.querySelectorAll('.pub-sep').forEach(function(hr){
+    hr.style.margin = '1.5rem 0';
+  });
+
+  // 5) mobile: impila verticalmente (se vuoi forzare anche su mobile)
+  function applyMobile() {
+    if (window.innerWidth <= 768) {
+      document.querySelectorAll('.pub-entry').forEach(function(entry){
+        entry.style.flexDirection = 'column';
+        entry.style.gap = '12px';
+      });
+      document.querySelectorAll('.pub-image').forEach(function(imgCol){
+        imgCol.style.width = '90px';
+        imgCol.style.flex = '0 0 90px';
+      });
+      document.querySelectorAll('.pub-image img').forEach(function(img){
+        img.style.width = '90px';
+        img.style.maxWidth = '90px';
+      });
+    } else {
+      // restore desktop values (in case of resize)
+      document.querySelectorAll('.pub-entry').forEach(function(entry){
+        entry.style.flexDirection = '';
+        entry.style.gap = '';
+      });
+      document.querySelectorAll('.pub-image').forEach(function(imgCol){
+        imgCol.style.width = '80px';
+        imgCol.style.flex = '0 0 80px';
+      });
+      document.querySelectorAll('.pub-image img').forEach(function(img){
+        img.style.width = '80px';
+        img.style.maxWidth = '80px';
+      });
+    }
+  }
+
+  applyMobile();
+  window.addEventListener('resize', applyMobile);
+});
+</script>
 </div>
