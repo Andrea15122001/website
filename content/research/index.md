@@ -178,3 +178,23 @@ Maximilian Beichert, Guangqi Dong, Xian Gu
 - University of Rochester (virtual); ESIC Business & Marketing School (virtual); Technion Israel Institute of Technology (virtual), 2021
 
 </div>
+
+
+
+
+
+
+
+<style>
+/* Research: widen only this page */
+body.page-research .article-container{
+  max-width: 900px;   /* uguale a Teaching */
+}
+@media (max-width: 992px){
+  body.page-research .article-container{
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+</style>
