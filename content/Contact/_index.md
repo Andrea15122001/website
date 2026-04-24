@@ -10,10 +10,9 @@ url: "/contact/"
 
 <p>I am happy to hear from you, whether it is about research, potential collaborations, or just to connect. Use the form below and I will get back to you as soon as I can.</p>
 
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="#">
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
 
   <input type="hidden" name="form-name" value="contact" />
-  <input type="hidden" name="_replyto" value="andreazamo39@gmail.com" />
   <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
 
   <div style="margin-bottom: 1.2rem;">
@@ -34,36 +33,46 @@ url: "/contact/"
       style="width:100%; padding:0.75rem 1rem; border:1px solid #ddd; border-radius:8px; font-size:1rem; box-sizing:border-box; resize:vertical;"></textarea>
   </div>
 
-  <button type="submit"
+  <button type="submit" id="contact-submit-btn"
     style="padding:0.75rem 2rem; background-color:#003A8F; color:#fff; border:none; border-radius:8px; font-size:1rem; font-weight:700; cursor:pointer;">
     Send
   </button>
 
 </form>
+
+<div id="contact-success" style="display:none; margin-top:2rem; font-size:1.1rem; color:#003A8F;">
+  ✓ Thank you! Your message has been sent. I will get back to you as soon as possible.
+</div>
+
 </div>
 
 <script>
-document.querySelector('form[name="contact"]').addEventListener('submit', async function(e) {
-  e.preventDefault();
-  const form = e.target;
-  const data = new FormData(form);
-  const res = await fetch('/', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams(data).toString()
+document.addEventListener("DOMContentLoaded", function () {
+  var form = document.querySelector('form[name="contact"]');
+  if (!form) return;
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var data = new FormData(form);
+    fetch('/contact/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(data).toString()
+    })
+    .then(function (res) {
+      if (res.ok) {
+        form.style.display = 'none';
+        document.getElementById('contact-success').style.display = 'block';
+      } else {
+        alert('Something went wrong (status ' + res.status + '). Please try again.');
+      }
+    })
+    .catch(function (err) {
+      alert('Network error. Please try again.');
+    });
   });
-  if (res.ok) {
-    form.innerHTML = '<p style="font-size:1.2rem; color:#003A8F; margin-top:2rem;">✓ Thank you! Your message has been sent. I will get back to you as soon as possible.</p>';
-  } else {
-    alert('Something went wrong. Please try again.');
-  }
 });
 </script>
-
-
-
-
-
 
 <!-- Start: fix navbar -->
 <script>
