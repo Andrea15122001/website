@@ -10,7 +10,7 @@ url: "/contact/"
 
 <p>I am happy to hear from you, whether it is about research, potential collaborations, or just to connect. Use the form below and I will get back to you as soon as I can.</p>
 
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact/success/">
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="#">
 
   <input type="hidden" name="form-name" value="contact" />
   <input type="hidden" name="_replyto" value="andreazamo39@gmail.com" />
@@ -41,6 +41,29 @@ url: "/contact/"
 
 </form>
 </div>
+
+<script>
+document.querySelector('form[name="contact"]').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  const res = await fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams(data).toString()
+  });
+  if (res.ok) {
+    form.innerHTML = '<p style="font-size:1.2rem; color:#003A8F; margin-top:2rem;">✓ Thank you! Your message has been sent. I will get back to you as soon as possible.</p>';
+  } else {
+    alert('Something went wrong. Please try again.');
+  }
+});
+</script>
+
+
+
+
+
 
 <!-- Start: fix navbar -->
 <script>
